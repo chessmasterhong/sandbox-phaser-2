@@ -1,0 +1,8 @@
+{
+  "name": "mishmash-of-rpgs",
+  "private": true,
+  "dependencies": {
+    "phaser": "~2.1.1",
+    "requirejs": "~2.1.15"
+  }
+}
