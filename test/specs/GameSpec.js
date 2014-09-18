@@ -25,6 +25,15 @@
             it('should have height of 480 pixels', function() {
                 expect(Game.height).to.equal(480);
             });
+
+            it('should be in the Title game state', function(done) {
+                waitFor(function() {
+                    return Game.state.current !== 'Preloader';
+                }, function() {
+                    expect(Game.state.current).to.equal('Title');
+                    done();
+                });
+            });
         });
     });
 }());
