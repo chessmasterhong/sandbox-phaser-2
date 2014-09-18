@@ -32,7 +32,8 @@
                 expect = chai.expect;
 
                 require([
-                    'lib/game/game'
+                    'lib/game/game',
+                    'spec/GameSpec'
                 ], function() {
                     if(window.mochaPhantomJS) {
                         mochaPhantomJS.run();
