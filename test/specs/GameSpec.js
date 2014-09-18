@@ -35,5 +35,21 @@
                 });
             });
         });
+
+        describe('Input controls', function() {
+            it('should have directional keybindings assigned', function() {
+                expect(Game.KEY.UP).to.exist;
+                expect(Game.KEY.UP.keyCode).to.equal(38); // Up arrow
+
+                expect(Game.KEY.DOWN).to.exist;
+                expect(Game.KEY.DOWN.keyCode).to.equal(40); // Down arrow
+
+                expect(Game.KEY.LEFT).to.exist;
+                expect(Game.KEY.LEFT.keyCode).to.equal(37); // Left arrow
+
+                expect(Game.KEY.RIGHT).to.exist;
+                expect(Game.KEY.RIGHT.keyCode).to.equal(39); // Right arrow
+            });
+        });
     });
 }());
