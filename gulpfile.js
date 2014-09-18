@@ -19,8 +19,8 @@ gulp.task('watch', function() {
 gulp.task('server', function() {
     gulp.src('.')
         .pipe(webserver({
-            host: '127.0.0.1',
-            port: 8080,
-            livereload: true
+            host: '0.0.0.0',
+            port: 8080
+            //livereload: true
         }));
 });
