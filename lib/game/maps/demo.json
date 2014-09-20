@@ -54,6 +54,48 @@
          "width":30,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":20,
+         "name":"Events Layer",
+         "objects":[
+                {
+                 "gid":258,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "type":"teleporter"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":224,
+                 "y":128
+                }, 
+                {
+                 "gid":258,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "type":"teleporter"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":256,
+                 "y":128
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":30,
+         "x":0,
+         "y":0
         }],
  "orientation":"orthogonal",
  "properties":
@@ -82,7 +124,7 @@
          "firstgid":257,
          "image":"..\/..\/..\/media\/tilesets\/collision.png",
          "imageheight":32,
-         "imagewidth":32,
+         "imagewidth":256,
          "margin":0,
          "name":"collision",
          "properties":
