@@ -62,6 +62,7 @@
     "globals"       : {
         "define"    : false,
         "Game"      : false,
+        "GameOverlay": false,
         "Phaser"    : false,
         "require"   : false
     }
