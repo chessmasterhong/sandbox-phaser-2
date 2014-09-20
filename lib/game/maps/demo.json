@@ -58,7 +58,7 @@
         {
          "draworder":"topdown",
          "height":20,
-         "name":"Events Layer",
+         "name":"Event Layer",
          "objects":[
                 {
                  "gid":258,
