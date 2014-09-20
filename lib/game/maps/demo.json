@@ -66,6 +66,9 @@
                  "name":"",
                  "properties":
                     {
+                     "destMap":"cave",
+                     "destX":"96",
+                     "destY":"256",
                      "type":"teleporter"
                     },
                  "rotation":0,
@@ -81,6 +84,9 @@
                  "name":"",
                  "properties":
                     {
+                     "destMap":"cave",
+                     "destX":"128",
+                     "destY":"256",
                      "type":"teleporter"
                     },
                  "rotation":0,
