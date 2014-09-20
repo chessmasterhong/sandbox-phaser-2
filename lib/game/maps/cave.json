@@ -65,11 +65,11 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/..\/media\/tilesets\/collision.png",
+         "image":"..\/..\/..\/media\/tilesets\/event_objects.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
-         "name":"collision",
+         "name":"event_objects",
          "properties":
             {
 

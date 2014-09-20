@@ -61,7 +61,7 @@
          "name":"Event Object Layer",
          "objects":[
                 {
-                 "gid":258,
+                 "gid":265,
                  "height":0,
                  "name":"",
                  "properties":
@@ -76,7 +76,7 @@
                  "y":128
                 }, 
                 {
-                 "gid":258,
+                 "gid":265,
                  "height":0,
                  "name":"",
                  "properties":
@@ -90,7 +90,7 @@
                  "x":256,
                  "y":128
                 }],
-         "opacity":1,
+         "opacity":0.600000023841858,
          "type":"objectgroup",
          "visible":true,
          "width":30,
@@ -122,11 +122,11 @@
         }, 
         {
          "firstgid":257,
-         "image":"..\/..\/..\/media\/tilesets\/collision.png",
-         "imageheight":32,
+         "image":"..\/..\/..\/media\/tilesets\/event_objects.png",
+         "imageheight":64,
          "imagewidth":256,
          "margin":0,
-         "name":"collision",
+         "name":"event_objects",
          "properties":
             {
 
