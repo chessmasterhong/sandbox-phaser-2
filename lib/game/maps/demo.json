@@ -28,7 +28,19 @@
          "name":"Object Layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":20,
+         "name":"Entity Layer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -39,7 +51,7 @@
          "name":"Overhead Layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
